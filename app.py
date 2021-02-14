@@ -9,9 +9,9 @@ def print_hello():
 @app.route("/pick-up-lines")
 def pick_up_lines():
     return """
-        I love you once,
-        I love you twice,
-        I love you more than beans and rice.
+        I love you once,\n
+        I love you twice,\n
+        I love you more than beans and rice.\n
     """
 
 app.run(host='0.0.0.0',port=5000)
